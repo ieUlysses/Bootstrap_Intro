@@ -6,6 +6,9 @@ function App() {
   return (
     <>
 
+      <h1>
+        WorkerBee test
+      </h1>
 
     </>
   );
