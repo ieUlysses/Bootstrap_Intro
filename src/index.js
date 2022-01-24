@@ -5,19 +5,20 @@ import App from './App';
 
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import TestOne from './Componants/Testing/TestOne';
-import TestTwo from './Componants/Testing/TestTwo';
-
+import NavBar from './Componants/NavBar/NavBar';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Home from './Pages/Home';
 
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-
+      <NavBar />
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/testone" element={<TestOne />} />
-        <Route path="/testtwo" element={<TestTwo />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
