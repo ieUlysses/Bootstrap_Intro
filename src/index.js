@@ -9,6 +9,7 @@ import NavBar from './Componants/NavBar/NavBar';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
+import Motivation from './Pages/Motivation';
 
 
 ReactDOM.render(
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/motivation" element={<Motivation />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
