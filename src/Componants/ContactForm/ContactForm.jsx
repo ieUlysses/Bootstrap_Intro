@@ -8,13 +8,13 @@ function ContactForm() {
                 <div className="row">
                     <div className="col-sm-6">
                         <div className="mb-3">
-                            <label for="emailInput" className="form-label">Email address</label>
+                            <label style={{ fontFamily: "Roboto" }} for="emailInput" className="form-label">Email address</label>
                             <input type="email" className="form-control" id="emailInput" />
                         </div>
                     </div>
                     <div className="col-sm-6">
                         <div className="mb-3">
-                            <label for="nameInput" className="form-label">Name</label>
+                            <label style={{ fontFamily: "Roboto" }} for="nameInput" className="form-label">Name</label>
                             <input type="text" className="form-control" id="nameInput" />
                         </div>
                     </div>
@@ -22,7 +22,7 @@ function ContactForm() {
                 <div classNameName="row">
                     <div className="col-sm-12">
                         <div className="mb-3">
-                            <label for="mesageInput" className="form-label">Message</label>
+                            <label style={{ fontFamily: "Roboto" }} for="mesageInput" className="form-label">Message</label>
                             <textarea class="form-control" id="messageInput" aria-label="textarea"></textarea>
                         </div>
                     </div>
