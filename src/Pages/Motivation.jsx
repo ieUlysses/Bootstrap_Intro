@@ -1,4 +1,5 @@
 import React from "react"
+import ContactForm from "../Componants/ContactForm/ContactForm"
 
 
 function Motivation() {
@@ -6,7 +7,6 @@ function Motivation() {
     return (
         <>
 
-            <h1>Motivation</h1>
 
         </>
     )
