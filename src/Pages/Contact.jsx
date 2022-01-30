@@ -15,7 +15,7 @@ function Contact() {
                 <div style={{ height: "100%" }} className="row ">
 
                     <div className="col-sm-8 d-flex align-items-center" style={{ backgroundColor: "black" }}  >
-                        <img src={aboutImg} className="img-fluid" alt="A smiling image of James Conway"></img>
+                        <img src={aboutImg} className="img-fluid" alt="A smiling snap of James Conway"></img>
                     </div>
 
                     <div className="col-sm-4  d-flex flex-column justify-content-evenly align-items-center  ">
