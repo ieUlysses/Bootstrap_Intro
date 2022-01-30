@@ -14,12 +14,12 @@ function About() {
 
                 <div style={{ height: "100%" }} className="row ">
 
-                    <div className="col-sm-2  d-flex flex-column justify-content-evenly ">
+                    <div className="col-sm-4  d-flex flex-column justify-content-evenly ">
                         <AboutHeader />
                         <AboutText />
                     </div>
 
-                    <div className="col-sm-10 d-flex align-items-center" style={{ backgroundColor: "black" }}  >
+                    <div className="col-sm-8 d-flex align-items-center" style={{ backgroundColor: "black" }}  >
                         <img src={aboutImg} className="img-fluid" alt="A smiling image of James Conway"></img>
                     </div>
                 </div>

@@ -8,7 +8,7 @@ function ContactForm() {
                 <div className="row">
                     <div className="col-sm-6">
                         <div className="mb-3">
-                            <label style={{ fontFamily: "Roboto" }} for="emailInput" className="form-label">Email address</label>
+                            <label style={{ fontFamily: "Roboto" }} for="emailInput" className="form-label">Email </label>
                             <input type="email" className="form-control" id="emailInput" />
                         </div>
                     </div>
