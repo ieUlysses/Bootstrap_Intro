@@ -2,6 +2,9 @@ import React from "react"
 import MotivationCards from "../Componants/MotivationCards/MotivationCards"
 import MotivationHeader from "../Componants/MotivationHeader/MotivationHeader"
 import MotivationText from "../Componants/MotivationText/MotivationText"
+import TechStack from "../Componants/TechStack/TechStack"
+
+
 
 function Motivation() {
 
@@ -21,6 +24,12 @@ function Motivation() {
                     </div>
                 </div>
 
+            </div>
+
+            <div style={{ height: "100vh" }} className="container-fluid d-flex align-items-center justify-content-center ">
+                <div>
+                    <TechStack />
+                </div>
             </div>
 
         </>
