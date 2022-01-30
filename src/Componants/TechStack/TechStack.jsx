@@ -15,12 +15,12 @@ function TechStack() {
     ]
 
     return (<>
-        <div className='container-fluid' style={{ width: "85vw" }}>
+        <div className='container-fluid'>
 
             {strenths.map(strenth => (
-                <div classNAme="progress">
-                    <div className="progress-bar mb-1 rounded bg-dark" role="progressbar" style={{ width: `${strenth.scale}` }} aria-valuenow={strenth.valuenow} aria-valuemin="0" aria-valuemax="100"><span style={{ textAlign: "left", fontSize: "larger", fontFamily: "Roboto" }}>{strenth.name}</span></div>
-                </div>
+
+                <div className="progress-bar  mb-1" role="progressbar" style={{ width: `${strenth.scale}` }} aria-valuenow={strenth.valuenow} aria-valuemin="0" aria-valuemax="100"><span style={{ textAlign: "left", fontSize: "larger", fontFamily: "Roboto" }}>{strenth.name}</span></div>
+
             ))
             }
 
