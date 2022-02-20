@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 
 function ContactText() {
     return (
@@ -11,4 +11,8 @@ function ContactText() {
         </>)
 }
 
+
+
 export default ContactText;
+
+
