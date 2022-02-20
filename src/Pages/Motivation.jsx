@@ -15,7 +15,7 @@ function Motivation() {
 
 
             <div style={{ height: "100vh" }} className="container-fluid d-flex flex-column align-items-center justify-content-center ">
-                <div style={{ height: "100%" }} className="row ">
+                <div style={{ height: "100%" }} className="row  ">
                     <div className="col-sm-4  d-flex flex-column justify-content-evenly ">
                         <MotivationHeader />
                         <MotivationText />
@@ -25,7 +25,7 @@ function Motivation() {
                     </div>
                 </div>
             </div>
-            <div style={{ height: "100vh" }} className="container-fluid d-flex flex-column align-items-center justify-content-center ">
+            <div style={{ height: "100vh" }} className="container-fluid d-flex flex-column align-items-center justify-content-center  mt-5">
                 <div style={{ height: "100%" }} className="row ">
                     <div className="col-sm-4  d-flex flex-column justify-content-evenly align-items-center " style={{ backgroundColor: "" }}>
                         <TechStackText />
