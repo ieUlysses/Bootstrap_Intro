@@ -9,8 +9,8 @@ function TechStack() {
         { name: "CSS", scale: "75%", valuenow: "75" },
         { name: "Sass", scale: "75%", valuenow: "75" },
         { name: "Node.js", scale: "50%", valuenow: "50" },
-        { name: "TypeScript", scale: "25%", valuenow: "25" },
-        { name: "Python", scale: "25%", valuenow: "25" },
+        { name: "TypeScript", scale: "10%", valuenow: "10" },
+        { name: "Python", scale: "10%", valuenow: "10" },
 
     ]
 
