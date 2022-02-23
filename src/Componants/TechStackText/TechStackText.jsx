@@ -3,7 +3,10 @@ import React from 'react';
 function TechStackText() {
     return (<>
         <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio modi corrupti commodi eius labore sequi ratione ipsa eum culpa? Nam excepturi porro voluptatum natus velit accusantium distinctio consequuntur ducimus quibusdam!
+            During my time with the DCI I concentrated on the MERN stack, building fullstack applications. paying particular attention to their frontend aperance, and using a mix of Vanilla css or libraries such as MUI depending on the project/  brief.
+        </p>
+        <p>
+            Following Graduation i have been gradually honing these skills and keeping up to date with updates, staying inline with best practices.
         </p>
     </>)
 }

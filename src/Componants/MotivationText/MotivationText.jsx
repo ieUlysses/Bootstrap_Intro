@@ -3,12 +3,11 @@ import React from 'react';
 function MotivationText() {
     return (
         <>
-
             <p>
-                As a Junior Frontend-Developer I posess 3 main skills that allow me to be a confident developer. These skills allow me to constantly look for improvments in code or layouts. Question if there is a better way to structure a componant or a page, and find a solution that will work in a given situation.
+                IT and technology hold an important place in my heart, simply because their impact is felt world wide. For me, connecting people with information; making their world a little broader is my motivation for moving into this inustry. Learning how to make information accessable and stable, backed by the latest tech motivates me.
             </p>
-
-        </>)
+        </>
+    )
 }
 
 export default MotivationText;
