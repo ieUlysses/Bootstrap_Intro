@@ -8,6 +8,7 @@ function NavBar() {
         { name: "About", to: "/about" },
         { name: "Contact", to: "/contact" },
         { name: "Motivation", to: "/motivation" },
+        { name: "Projects", to: "/projects" },
     ]
 
 

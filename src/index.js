@@ -10,6 +10,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Motivation from './Pages/Motivation';
+import Projects from './Pages/Projects';
 
 
 ReactDOM.render(
@@ -17,10 +18,12 @@ ReactDOM.render(
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={<TestOne />} />
+        <Route path="/" element={<About />} />
         <Route path="/about" element={<About />} />
+
         <Route path="/contact" element={<Contact />} />
         <Route path="/motivation" element={<Motivation />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
