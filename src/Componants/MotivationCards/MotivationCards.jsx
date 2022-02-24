@@ -14,9 +14,8 @@ function MotivationCards() {
                         <h4 className='text-warning' style={{ fontFamily: "YellowTail", }}>
                             #{trait.no}
                         </h4>
-                        < div className="card-body" >
-                            <h5 className="card-title" style={{ fontFamily: "Roboto", fontWeight: "bolder", textAlign: "center" }}>{trait.trait}</h5>
-                        </div>
+
+                        <h5 className="card-title" style={{ fontFamily: "Roboto", fontWeight: "bolder", textAlign: "center" }}>{trait.trait}</h5>
                     </div>
                 )
                 )}
